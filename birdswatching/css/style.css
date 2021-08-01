@@ -1,0 +1,51 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    margin: 0 auto;
+    max-width: 1200px;
+}
+h1 h3 nav{
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 900;
+    color: black;
+}
+.nameSite{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nameSite>h1{
+    text-align: center;
+    flex:1;
+}
+.nameSite>img{
+    width: 70px;
+}
+nav{
+    display: flex;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    flex: 2;
+}
+nav li{
+    text-align: center;
+    flex: 1;
+}
+nav a{
+    text-decoration:0;
+}
+aside>img{
+    width: 150px;
+}
+main{
+    display: flex;
+}
+aside{
+    flex:1; /*flex-grow*/
+}

@@ -1,3 +1,59 @@
-div{
-    background-color: rgba(169, 67, 241, 0.11);
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+    text-align: center;
+    padding: 5px;
+}
+body{
+    background-color: black;
+}
+.usercard{
+    color: blanchedalmond;
+    background-color: rgb(83, 0, 83);
+    max-width: 400px;
+    min-width: 200px;
+    margin: 30px;
+    border-radius: 20px;
+    border: 3px solid grey;
+    font-size: 14px;
+}
+.userImageContainer{
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border:5px solid rgb(202, 165, 1);
+    border-radius: 50%;
+}
+.userImageContainer>img{
+    width: inherit;
+    height: inherit;
+    object-fit: cover;
+}
+.userInfoContainer{
+    display: block;
+}
+.usercard>*{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.inst,
+.fb,
+.mess{
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.userLink{
+    font-size:1.3em;
+    font-style: italic;
+}
+
+.statName{
+    font-weight:bold;
+}
+.userStatItem{
+    display:inline-block;
+    font-size: 1.2em;
 }
