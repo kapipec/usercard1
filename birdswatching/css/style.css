@@ -27,6 +27,7 @@ h1 h3 nav{
 }
 nav{
     display: flex;
+    margin-bottom: 10px;
 }
 nav ul{
     display: flex;
@@ -40,12 +41,15 @@ nav li{
 nav a{
     text-decoration:0;
 }
-aside>img{
+.vertical>img{
     width: 150px;
+    flex-basis: 49%;
 }
 main{
     display: flex;
 }
-aside{
-    flex:1; /*flex-grow*/
+.vertical{
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
 }
